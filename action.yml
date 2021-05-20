@@ -3,7 +3,7 @@ description: 'Wait a designated number of milliseconds'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
-    required: true
+    required: false
     default: '1000'
 outputs:
   time: # output will be available to future steps
